@@ -158,7 +158,7 @@
 #         role: readonly # readonly, readwrite, administrator
 #         cidr: 0.0.0.0/0,::/0
 # retention:
-#   searches: 10080 # 7 days, in minutes
+#   search: 10080 # 7 days, in minutes
 #   transfers:
 #     upload:
 #       succeeded: 1440 # 1 day, in minutes
@@ -192,7 +192,7 @@
 #   password: ~
 #   description: |
 #     A slskd user. https://github.com/slskd/slskd
-#   profile_picture: slsk-profile-picture.jpg
+#   picture: path/to/slsk-profile-picture.jpg
 #   listen_ip_address: 0.0.0.0
 #   listen_port: 50300
 #   diagnostic_level: Info
@@ -204,7 +204,7 @@
 #   connection:
 #     timeout:
 #       connect: 10000
-#       inactivity: 30000
+#       inactivity: 15000
 #     buffer:
 #       read: 16384
 #       write: 16384
